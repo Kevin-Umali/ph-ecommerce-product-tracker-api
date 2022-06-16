@@ -1,0 +1,24 @@
+{
+  "name": "Shopee Tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node server.js",
+    "listen": "nodemon --experimental-specifier-resolution=node server.js"
+  },
+  "type": "commonjs",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "puppeteer": "^14.4.0",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

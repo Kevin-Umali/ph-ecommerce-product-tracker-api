@@ -1,0 +1,39 @@
+POST http://localhost:3000/API/V1/Shopee/stock/check HTTP/1.1
+content-type: application/json
+
+{
+    "link": "https://shopee.ph/Aquaflask-22oz-Wide-Mouth-with-Spout-Lid-Vacuum-Insulated-Stainless-Steel-Drinking-Water-i.282024671.4645826547?sp_atk=a8656331-8fd1-4fff-9159-7be6f6b93d1f&xptdk=a8656331-8fd1-4fff-9159-7be6f6b93d1f"
+}
+
+### 
+POST http://localhost:3000/API/V1/Shopee/stock/check HTTP/1.1
+content-type: application/json
+
+{
+    "link": "https://shopee.ph/AQUAFLASK-Bottle-Stickers-i.282024671.12908886430?sp_atk=197aac99-c11a-4b22-a4bd-9912a2a16dd8&xptdk=197aac99-c11a-4b22-a4bd-9912a2a16dd8"
+}
+
+### 
+POST http://localhost:3000/API/V1/Shopee/stock/check HTTP/1.1
+content-type: application/json
+
+{
+    "link": "https://shopee.ph/Omega-Houseware-Shara-3-Tier-Rectangular-Plate-With-Collapsible-Rack-i.267569497.9530595320"
+}
+
+###
+POST http://localhost:3000/API/V1/Shopee/stock/check/bulk HTTP/1.1
+content-type: application/json
+
+{
+    "links": ["https://shopee.ph/Omega-Houseware-Shara-3-Tier-Rectangular-Plate-With-Collapsible-Rack-i.267569497.9530595320",
+            "https://shopee.ph/AQUAFLASK-Bottle-Stickers-i.282024671.12908886430?sp_atk=197aac99-c11a-4b22-a4bd-9912a2a16dd8&xptdk=197aac99-c11a-4b22-a4bd-9912a2a16dd8"]
+}
+
+###
+POST http://localhost:3000/API/V1/Lazada/stock/check HTTP/1.1
+content-type: application/json
+
+{
+    "link": "https://shopee.ph/Aquaflask-22oz-Wide-Mouth-with-Spout-Lid-Vacuum-Insulated-Stainless-Steel-Drinking-Water-i.282024671.4645826547?sp_atk=a8656331-8fd1-4fff-9159-7be6f6b93d1f&xptdk=a8656331-8fd1-4fff-9159-7be6f6b93d1f"
+}
